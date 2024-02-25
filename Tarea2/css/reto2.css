@@ -1,0 +1,46 @@
+.button2 {
+    font-size: small;
+    background-color: rgb(155, 208, 241);
+}
+
+.container-fluid1 {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: rgba(99, 91, 91, 0.295);
+}
+
+.titulo1 {
+    font-weight: bolder;
+}
+
+.titulo2 {
+    font-weight: normal;
+}
+
+.titulo3 {
+   color: #b65a22;
+}
+
+i {
+    font-size: 80px;
+    color: #f47526;
+    
+}
+
+.h5 {
+    color: #f56c17;
+}
+
+.button {
+    font-size: medium;
+    background-color: rgb(241, 112, 13);
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+    }

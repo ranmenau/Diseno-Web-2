@@ -1,0 +1,46 @@
+.titulo1 {
+    font-size: 40px;
+}
+
+.titulo2 {
+    font-size: 20px;
+}
+
+
+.fondo1 {
+
+    background-color: #0c0b0b;
+}
+
+/* DISTANCIA DE LA INFORMACION*/
+/* Valores1 (arriba/abajo)* Valores2 (izquierda-derecha)*/
+
+.container-fluid {
+    padding: 10px 0;
+    background-color: rgb(6, 5, 10);
+}
+
+.container-fluid1 {
+    padding-top: 10px;
+    background-color: rgb(6, 5, 10);
+}
+
+i {
+    font-size: 30px;
+    color: #f7a131d7;
+    
+}
+
+.button1 {
+    font-size: medium;
+    background-color: rgb(28, 68, 88);
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+    }

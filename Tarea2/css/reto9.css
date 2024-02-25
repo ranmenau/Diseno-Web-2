@@ -1,0 +1,39 @@
+.container-fluid1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.button1 {
+    font-size: medium;
+    background-color: rgb(23, 44, 78);
+ }
+
+ .banner9 {
+    background-image: url("../imagenes/banner9.jpg");
+    background-size: cover;
+    background-position: center;
+    /*Efecto Parallax*/
+    background-attachment: fixed;
+}
+
+.banner9-2 {
+    background-image: url("../imagenes/banner9-2.jpg");
+    background-size: cover;
+    background-position: center;
+    /*Efecto Parallax*/
+    background-attachment: fixed;
+}

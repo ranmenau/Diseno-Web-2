@@ -1,0 +1,38 @@
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+.container-fluid1 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.titulo2 {
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.button {
+    background-color: rgb(241, 13, 13);
+    font-size: medium;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+    }
+    

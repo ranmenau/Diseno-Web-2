@@ -1,0 +1,40 @@
+.container-fluid {
+    padding: 5px 0;
+}
+
+.container-fluid1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.titulo1 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+
+
+.button {
+    font-size: medium;
+    font-weight:200;
+    background-color: rgba(54, 41, 41, 0.666);
+}
+
+.banner2 {
+    background-image: url("../imagenes/banner-index.jpg");
+    background-size: cover;
+    background-position: center;
+    /*Efecto Parallax*/
+    background-attachment: fixed;
+}
+
+.container-fluid4 {
+    padding-top: 20px;
+    padding-bottom: 500px;
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}

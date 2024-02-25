@@ -1,0 +1,36 @@
+.banner1 {
+    background-image: url("../imagenes/banner-reto6.jpg");
+    background-size:cover;
+    background-position: center;
+    box-shadow:inset;
+    background-blend-mode:luminosity;
+    padding-top: 50px;
+}
+
+.container-fluid1 {
+    padding-top: 210px;
+    padding-bottom: 400px;
+}
+
+.titulo1 {
+font-size: 40px;
+font-weight: bolder;
+font-style: italic;
+padding-bottom: 30px;
+
+}
+
+.btn-lg {
+    font-size:medium;
+    background-color: rgb(144, 217, 84);
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+    color:blanchedalmond;
+    }

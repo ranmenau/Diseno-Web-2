@@ -1,0 +1,38 @@
+.container-fluid1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.titulo1 {
+    font-weight: bolder;
+    font-size: 15px;
+    color: #2262b6;
+}
+
+
+.imghvr-fade:hover  {
+    opacity: 01.8;
+    transition: opacity 0.5s ease;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    position:relative;
+}
+
+.btn-lg {
+    font-size:medium;
+    background-color: rgb(191, 158, 254);
+}
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+    }

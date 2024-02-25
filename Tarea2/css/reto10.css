@@ -1,0 +1,30 @@
+.container-fluid1 {
+    padding: 30px 0;
+}
+
+.container-fluid2 {
+    padding: 40px 0;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+.button1 {
+    font-size: medium;
+    background-color: rgb(75, 68, 76);
+}
+
+.button2 {
+    font-size: medium;
+    background-color: rgb(30, 162, 43);
+}
+
+footer {
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+font-size: 30px;
+}

@@ -1,0 +1,53 @@
+.container-fluid1 {
+
+    padding: 100px 0px;
+
+}
+
+.titulo1 {
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+p{
+    font-size: 23px;
+}
+
+.fondo1 {
+
+    background-color: rgb(184, 60, 60);
+    padding: 20px 0px;
+}
+
+.fondo2 {
+
+    background-color: rgb(19, 153, 124);
+    padding: 20px 0px;
+}
+
+.fondo3 {
+
+    background-color: rgb(235, 120, 48);
+    padding: 20px 0px;
+}
+
+.justificar {
+    text-align: justify;
+    text-indent: 0px;
+    margin: 0px;
+    }
+
+    .button1 {
+        font-size: medium;
+        background-color: rgb(26, 63, 48);
+    }
+
+    footer{
+        color: #fff;
+        background-color: #003c5e;
+    }
+    
+    .titulo {
+        font-size: 30px;
+        }

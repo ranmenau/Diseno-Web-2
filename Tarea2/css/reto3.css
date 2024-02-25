@@ -1,0 +1,49 @@
+.container-fluid {
+    padding: 10px 0;
+}
+
+.container-fluid1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo1 {
+    font-size: 40px;
+}
+
+.titulo2 {
+    font-size: 22px;
+}
+
+.titulo3 {
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.button {
+    font-size: medium;
+    background-color: rgb(241, 13, 13);
+}
+
+.button1 {
+    font-size: medium;
+    background-color: rgb(23, 44, 78);
+}
+
+
+footer{
+    color: #fff;
+    background-color: #003c5e;
+}
+
+.titulo {
+    font-size: 30px;
+    }
