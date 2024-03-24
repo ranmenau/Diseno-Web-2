@@ -1,0 +1,105 @@
+
+/*********************  ENCABEZADO BANNER WEB INICIAL ******************************/
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    background-position: center;
+    background-image: url('../imagenes/banner1.jpg');
+    padding-top: 100px;
+    padding-bottom: 680px;
+    width: 100%; 
+}
+
+.seccion1 {
+    background-color: #000000;
+}
+
+.titulo1 {
+    color: white;
+    
+}
+
+
+.icon {
+    /*generador de vector web*/
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    background-color: #4475e8;
+    font-size: 60px;
+    width: 80px;
+    padding: 15px;
+    color: #fff;
+}
+
+.container-fluid1 {
+    background-color: #bdd5ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo3 {
+    font-size: 22px;
+}
+
+
+.justificar {
+    text-align: justify;
+}
+
+footer {
+    color: #fff;
+    padding-top: 10px;
+    background-color: #140b70;
+}
+
+.banner2parallax {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(40vh);
+    background-position: center;
+    background-image: url('../imagenes/banner2.jpg');
+    background-blend-mode: multiply;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+.price-table:hover {
+    background-color: #c2edfc;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.0);
+    transition: all 0.5s ease-in;
+    border:#000000;
+}
+
+.goto-top img {
+    width: 120px;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
