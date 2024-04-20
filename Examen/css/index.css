@@ -1,0 +1,231 @@
+/*********************  MENU NAV ******************************/
+
+.navbar {
+    background-color: #000000; /* Cambia #000 por el color que desees */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #fff; /* Cambia #fff por el color del texto que desees */
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+}
+.optmenu {
+    font-family: 'roboto',sans-serif;
+    font-size: 18px;
+    transition: all 2s solid;
+}
+
+.optmenu:hover {
+    color: #ffffff;
+    background-color: #00000079;
+    transition: all 2s solid;
+    
+}
+
+.navbar-toggler-text {
+    margin-right: 5px; /* Ajusta el margen derecho según sea necesario */
+    font-weight: bold; /* Opcional: Puedes ajustar el peso de la fuente */
+}
+
+/* Colores de MENU HAMBURGUESA */
+.navbar-toggler {
+    background-color: aliceblue;
+    border: 3px solid #a6c6e5;
+    margin: auto; /* Centrar horizontalmente el botón */
+}
+
+.navbar-toggler:hover {
+    background-color: #87d9f7;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color:rgb(0, 136, 182);
+}
+
+/* Opcional: Ajustar el tamaño del botón hamburguesa */
+.navbar-toggler-icon {
+    width: 1.5em; /* Puedes ajustar este valor según sea necesario */
+    height: 1.5em; /* Puedes ajustar este valor según sea necesario */
+}
+
+
+/* Lineas de colores menu hamburguesa */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }         
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }   
+
+/*********************  ENCABEZADO BANNER  INICIAL ******************************/
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    background-position: center;
+    background-image: url('../imagenes/banner1.jpg');
+    padding-top: 100px;
+    padding-bottom: 680px;
+    width: 100%; 
+}
+
+.seccion1 {
+    background-color: #000000;
+}
+
+.titulo1 {
+    color: white;
+    
+}
+
+
+.icon {
+    background-color: #4a7bed;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%; /* Hace que el icono tenga forma de círculo */
+    padding: 15px;
+    color: #fff;
+}
+
+
+.container-fluid1 {
+    background-color: #bdd5ff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.titulo3 {
+    font-size: 22px;
+}
+
+
+.justificar {
+    text-align: justify;
+}
+
+footer {
+    color: #fff;
+    padding-top: 10px;
+    background-color: #000095;
+}
+
+.banner2parallax {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    height: calc(40vh);
+    background-position: center;
+    background-image: url('../imagenes/banner2.jpg');
+    background-blend-mode: multiply;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #a0f1fc;
+    border: 2px solid #a1a1a1;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+
+.price-table:hover {
+    background-color: #27c5ff;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.0);
+    transition: all 0.5s ease-in;
+    border: #000000;
+}
+
+
+.goto-top img {
+    width: 120px;
+    padding-top: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*********************  Botton WhatsApp ******************************/
+@keyframes wave {
+    0% {
+        box-shadow: 0 0 0 0 rgba(25, 130, 200, 0.86);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(49, 217, 214, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(86, 218, 101, 0);
+    }
+}
+
+.wave-effect {
+    animation: wave 2s infinite;
+}
+
+/*********************  Iconos Redes Contacto ******************************/
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    font-size: 50px; /* Ajusta el tamaño de los iconos según sea necesario */
+    margin: 0 10px; /* Ajusta el espaciado entre los iconos según sea necesario */
+    color: #fff; /* Establece el color de las fuentes de los iconos a blanco */
+}
+
+/* Ajuste de tamaño para las imágenes en la sección fotográfica */
+.img-fluid {
+    max-width: 100%; /* Para asegurar que las imágenes no se salgan de sus contenedores */
+    height: auto; /* Para mantener la proporción original de las imágenes */
+}
+
+/* Estilos para el contenedor del audio */
+.audio-container {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para el botón de reproducción de audio */
+.audio-container audio {
+    /* Agrega tus estilos personalizados aquí */
+    color: #fff; /* Color del icono y texto del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    padding: 8px 16px; /* Espaciado interno del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 4px; /* Ajusta el radio de los bordes según sea necesario */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+/* Estilos para el botón de reproducción de audio al pasar el cursor sobre él */
+.audio-container audio:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para el botón de reproducción de audio cuando está activo (seleccionado) */
+.audio-container audio:active {
+    background-color: #b45921; /* Cambia el color de fondo cuando el botón está presionado */
+}
+
+.texto-negrita-personalizado {
+    font-weight: bold;
+    color: #000000; /* Cambia el color a tu preferencia */
+    font-size: 14px; /* Cambia el tamaño de la fuente a tu preferencia */
+}
+
